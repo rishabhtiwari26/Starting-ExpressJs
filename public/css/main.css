@@ -1,0 +1,30 @@
+.main-header{
+    width: 100%;
+    height: 56px;
+    background-color:rgb(200, 134, 160);
+}
+.main-header_nav a {
+    margin:0;
+    padding:0;
+    align-items: center;
+    color: #ffffff;
+}
+.main-header_listItem a:hover,
+.main-header_listItem a:active,
+.main-header_listItem a.active{
+    color:rgb(9, 125, 52)
+}
+.body{
+    padding: 0;
+    margin: 0;
+
+}
+.main-header_list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.main-header_listItem{
+    margin :1rem;
+}
